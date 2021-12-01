@@ -1,0 +1,53 @@
+.cartbody{
+    font-size: 30px;
+    font:italic;
+    padding: 1%;
+    margin: 1%;
+    border:solid 2px burlywood;
+}
+.cart{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+}
+img{
+    border-radius: 10px cadetblue;
+    padding: 1%;
+}
+s{
+    color: crimson;
+}
+h4{
+    text-align: center;
+    color: blue;
+}
+button{
+    background-color: green;
+    color: darkseagreen;
+    font-size: 30px;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    .cart{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .cartbody{
+        width: 95%;
+        font-size: 30px;
+        background-color:dimgrey;
+
+    }
+    button{
+        font-size: x-large;
+    }
+    
+}
+@media screen and (min-width:480px) and (max-width:780px) {
+    .cartbody{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
